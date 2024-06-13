@@ -47,7 +47,7 @@ header {
 }
 
 section {
-	border: 1px solid black;
+	border: 0.063rem solid black;
 	padding: 1rem;
 	background-color: #fff;
 	margin: 0.5rem;
@@ -87,7 +87,7 @@ aside {
 	}
 }
 /* Medium View */
-@@media (min-width: 600px) and (max-width: 899px) {
+@@media (min-width: 37.5px) and (max-width: 56.188rem) {
 	.flex-container {
 		display: flex;
 		flex-wrap: wrap;
@@ -101,7 +101,7 @@ aside {
 
 
 /* Largest View */
-@media (min-width: 900px) {
+@media (min-width: 56.25rem) {
 	.wide-flex {
 		justify-content: center;
 	}
